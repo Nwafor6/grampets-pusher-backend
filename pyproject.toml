@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "grampets-pusher-backend"
+version = "0.1.0"
+description = ""
+authors = ["nwafor6 <nwaforglory6@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.5"
+boto3 = "^1.35.65"
+python-dotenv = "^1.0.1"
+pynamodb = "^6.0.1"
+pusher = "^3.3.2"
+pyjwt = "^2.10.0"
+uvicorn = "^0.32.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
